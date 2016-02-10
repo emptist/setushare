@@ -1,4 +1,4 @@
-{Tushare} = require './setushare'
+Tushare = require './setushare'
 ts = new Tushare()
 #console.log ts
 ts.data {func: 'get_hist_data',args: "'300388',ktype='W'"}, (pys,res)->

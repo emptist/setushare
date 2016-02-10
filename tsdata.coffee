@@ -20,8 +20,8 @@ class Tushare
     @pysh = new Pysh 'getjson.py', options
     #所有的on什麼都放這裡
 
-  done: (pysh=@pysh)->
-    pysh.end (err)->
+  done: ()->
+    @pysh.end (err)->
       throw err if err
       console.info 'done.'
 
