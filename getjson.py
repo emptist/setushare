@@ -12,8 +12,7 @@ while line:
         if message.get('func'):
             print(ts.query(message))
     except Exception as e:
-        pass #print(line)
+        pass #print(e)
 
-
-        # 用python -u 來執行,故不需要手工flush()
-        # sys.stdout.flush()
+# 用python -u 來執行,故不需要手工flush()
+#sys.stdout.flush()

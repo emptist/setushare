@@ -11,13 +11,14 @@
 ###
 Pysh = require 'python-shell'
 
+# will repeatedly return 3 times, don't know why
 class Tushare
   constructor: ->
     options =
       mode:'json'
       pythonOptions:['-u']
       scriptPath: __dirname
-    @pysh = new Pysh 'getjson.py', options
+    @pysh = new Pysh '../getjson.py', options
     #所有的on什麼都放這裡
 
   done: ()->

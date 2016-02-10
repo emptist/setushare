@@ -6,6 +6,14 @@
 [download-image]: https://img.shields.io/npm/dm/setushare.svg?style=flat-square
 [download-url]: https://npmjs.org/package/setushare
 
+
+# warning:
+
+This doesn't seem to work correctly since it will return repeatedly on multiple
+querying.
+
+
+
 Query tushare.org through python-shell.
 Also see example.
 
