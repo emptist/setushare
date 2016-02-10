@@ -1,6 +1,6 @@
 {
   "name": "setushare",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Get security data from tushare.org",
   "main": "tsdata.js",
   "scripts": {
